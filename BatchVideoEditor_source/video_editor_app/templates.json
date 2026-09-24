@@ -1,0 +1,32 @@
+{
+  "Mặc định (không chỉnh)": {
+    "trim_start": 0,
+    "trim_end": 0,
+    "watermark": {"enabled": false, "path": "", "position": "bottom-right", "opacity": 0.7, "scale": 0.15},
+    "intro": {"enabled": false, "path": ""},
+    "outro": {"enabled": false, "path": ""},
+    "bg_music": {"enabled": false, "path": "", "volume": 0.2},
+    "subtitle": {"enabled": false, "font_size": 42, "color": "white", "position": "bottom"},
+    "effects": {"fade_in_out": true, "zoom_ken_burns": false, "speed": 1.0}
+  },
+  "CapCut style (fade + zoom + watermark)": {
+    "trim_start": 0,
+    "trim_end": 0,
+    "watermark": {"enabled": true, "path": "", "position": "bottom-right", "opacity": 0.8, "scale": 0.15},
+    "intro": {"enabled": false, "path": ""},
+    "outro": {"enabled": false, "path": ""},
+    "bg_music": {"enabled": true, "path": "", "volume": 0.15},
+    "subtitle": {"enabled": true, "font_size": 46, "color": "yellow", "position": "bottom"},
+    "effects": {"fade_in_out": true, "zoom_ken_burns": true, "speed": 1.0}
+  },
+  "Full (intro/outro + nhạc + sub + watermark)": {
+    "trim_start": 0,
+    "trim_end": 0,
+    "watermark": {"enabled": true, "path": "", "position": "top-right", "opacity": 0.7, "scale": 0.12},
+    "intro": {"enabled": true, "path": ""},
+    "outro": {"enabled": true, "path": ""},
+    "bg_music": {"enabled": true, "path": "", "volume": 0.18},
+    "subtitle": {"enabled": true, "font_size": 44, "color": "white", "position": "bottom"},
+    "effects": {"fade_in_out": true, "zoom_ken_burns": false, "speed": 1.0}
+  }
+}
